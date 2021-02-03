@@ -238,6 +238,7 @@ def coffee():
          f.write("Throughput: " + str(throughput) + "\n")
          f.write("Total profit: " + str(totalProfit))
 
+    print(f"Done.")
     print(f"Created {outFile}")
 
     return
